@@ -1,0 +1,27 @@
+{
+  "name": "nlr",
+  "version": "1.0.0",
+  "description": "This is the homepage for the Northern Lights Racing bike team.",
+  "main": "app.js",
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "html": "^1.0.0",
+    "http-server": "^0.11.1",
+    "node": "^11.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mliay81/nlr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mliay81/nlr/issues"
+  },
+  "homepage": "https://github.com/mliay81/nlr#readme"
+}

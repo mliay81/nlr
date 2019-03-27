@@ -1,3 +1,76 @@
+body {
+    background-color: black;
+}
+
 h1 {
-    color: red;
+    color: white;
+    padding-left: 31%;
+    padding-top: 5%;
+}
+
+#logo {
+    padding-top: 5px;
+}
+
+#route {
+    color: white;
+}
+
+strong {
+    color: white;
+    padding: 31%;
+}
+
+.jumbotron {
+    background-image: url("images/aurora.jpg");
+    margin-bottom: 0;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%
+}
+
+#about {
+    padding-top: 10%;
+}
+
+#sponsorText {
+    color: white;
+    background-color: black;
+}
+
+#footer {
+    padding-top: 20px;
+    color: white;
+}
+
+/* Calendar Sizing */
+@media (max-width: 550px) {
+    .big-container {
+        display: none;
+    }
+}
+@media (min-width: 550px) {
+    .small-container {
+        display: none;
+    }
+}
+/* Responsive iFrame */
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }

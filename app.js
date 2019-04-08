@@ -22,7 +22,7 @@ app.use(express.static(__dirname + '/public'));
 
   
   app.get('/sponsors', function(req, res) {
-    res.sendFile(path.join(__dirname, "./public/sponsors.html"))
+    res.sendFile(path.join(__dirname, "/public/sponsors.html"))
   })
 
 
@@ -31,5 +31,5 @@ app.use(express.static(__dirname + '/public'));
   })
 
   app.get('*', function(req, res) {
-    res.sendFile(path.join(__dirname, "./public/index.html"))
+    res.sendFile(path.join(__dirname, "/public/index.html"))
   })

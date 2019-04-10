@@ -1,3 +1,4 @@
+
 var express = require("express")
 var app = express()
 const port = 3000
@@ -17,12 +18,12 @@ app.use(express.static(__dirname + '/public'));
 //   })
 
   app.get('/team', function(req, res) {
-    res.sendFile(path.join(__dirname, "/team.html"))
+    res.sendFile(path.join(__dirname, "./public/team.html"))
   })
 
   
   app.get('/sponsors', function(req, res) {
-    res.sendFile(path.join(__dirname, "/public/sponsors.html"))
+    res.sendFile(path.join(__dirname, "./public/sponsors.html"))
   })
 
 
@@ -31,5 +32,5 @@ app.use(express.static(__dirname + '/public'));
   })
 
   app.get('*', function(req, res) {
-    res.sendFile(path.join(__dirname, "/public/index.html"))
+    res.sendFile(path.join(__dirname, "./public/index.html"))
   })

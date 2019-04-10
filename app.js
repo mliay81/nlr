@@ -8,7 +8,7 @@ const path = require('path')
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
-// app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/public'));
 
 // New code based on Stack Overflow that didn't fix routing.
 // app.use('/', express.static(__dirname + '/public'));

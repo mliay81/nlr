@@ -1,7 +1,7 @@
 
 var express = require("express")
 var app = express()
-const port = 3000
+const port = process.env.PORT || 3000
 var http = require("http")
 const path = require('path')
 // app.set("view engine", "html")

@@ -10,6 +10,7 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <script src="app.js"></script>
+    <script src="https://snapwidget.com/js/snapwidget.js"></script>
 </head>
 
 <body>
@@ -42,29 +43,25 @@
         </div>
     </div>
 
-    <hr>
+<hr>
 <!-- EmbedSocial, don't like because of the ad -->
-    <!-- <div class='embedsocial-instagram' data-ref="c191c242b7a59ff17a97237d4293d08c31f2c9c3"></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialInstagramScript"));</script> -->
-    <hr>
-
-<!-- Pixlee SocialFeed; doesn't work -->
-<!-- <div id="pixlee_container"></div><script type="text/javascript">window.PixleeAsyncInit = function() {Pixlee.init({apiKey:'Won2rfQVoL_u9PfFGif4'});Pixlee.addSimpleWidget({widgetId:'18477'});};</script><script src="//instafeed.assets.pixlee.com/assets/pixlee_widget_1_0_0.js"></script> -->
-    <hr>
-
-    <hr>
-    <!-- SnapWidget but you can't paginate with SnapWidget, only get six pics. Hai Hai uses this-->
-<div align="center">
-<iframe src="https://snapwidget.com/embed/696022" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:visible; width:825px; height:495px"></iframe>
-<div style="font:10px/14px 'Roboto','Helvetica Neue',Arial,Helvetica,sans-serif;font-weight:400;width:825px;text-align:right"><a href="https://snapwidget.com" style="color:#777;text-decoration:none;">SnapWidget · Instagram Widget</a></div>
-</div>
-
-<!-- LightWidget Doesn't work-->
-<!-- <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/f25eb8969b2c5834ae302359bc3d05c6.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe> -->
-
+<!-- <div class='embedsocial-instagram' data-ref="c191c242b7a59ff17a97237d4293d08c31f2c9c3"></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialInstagramScript"));</script> -->
 <hr>
 
-<!-- Instaembedder, DOESN'T WORK ON HTTPS -->
-<!-- <iframe src="http://instaembedder.com/gallery-v2.php?width=125&cols=5&rows=5&margin=8&color=gray&likes=1&share_buttons=1&comments=1&date=1&link=1&frame=1&image_border=8&frame_color=white&cid=11536&" scrolling="no" frameborder="0" width="100%" height="845"></iframe> -->
+<!-- SnapWidget but you can't paginate with SnapWidget, only get six pics. Hai Hai uses this-->
+
+<!-- SnapWidget Responsive-->
+<div class="snapwidget mobile">
+
+<iframe src="https://snapwidget.com/embed/696022" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
+<div style="font:10px/14px 'Roboto','Helvetica Neue',Arial,Helvetica,sans-serif;font-weight:400;width:100%;text-align:right"><a href="https://snapwidget.com" style="color:#777;text-decoration:none;">SnapWidget · Instagram Widget</a></div>
+</div>
+
+<!-- SnapWidget Non-Responsive -->
+<div class="snapwidget desktop" align="center">
+<iframe src="https://snapwidget.com/embed/696022" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:825px; height:495px"></iframe>
+<div style="font:10px/14px 'Roboto','Helvetica Neue',Arial,Helvetica,sans-serif;font-weight:400;width:825px;text-align:right"><a href="https://snapwidget.com" style="color:#777;text-decoration:none;">SnapWidget · Instagram Widget</a></div>
+</div>
 
     <!-- About card -->
     <div class="container" id="about">

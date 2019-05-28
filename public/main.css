@@ -79,6 +79,26 @@ strong {
     height: 100%;
 } */
 
+@media screen and (max-width: 720px) {
+    .snapwidget.mobile {
+      display: block;
+    }
+    
+    .snapwidget.desktop {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 721px) {
+    .snapwidget.desktop {
+      display: block;
+    }
+    
+    .snapwidget.mobile {
+      display: none;
+    }
+  }
+
 @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;

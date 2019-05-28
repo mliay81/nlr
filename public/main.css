@@ -11,8 +11,8 @@ h1 {
 h3 {
     color: rgb(181, 114, 243);
     /* font-family: 'Dancing Script', cursive; */
-    /* font-family: 'Anton', sans-serif; */
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Anton', sans-serif;
+    /* font-family: 'Permanent Marker', cursive; */
 }
 
 p {
@@ -33,7 +33,9 @@ p {
     /* color: #8A2BE2; */
     padding: 15px;
     color: white;
-    font-family: 'Permanent Marker', cursive;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Anton', sans-serif;
+    /* font-family: 'Permanent Marker', cursive; */
 }
 
 strong {

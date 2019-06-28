@@ -30,8 +30,8 @@ app.use(express.static(__dirname + '/public'));
     res.sendFile(path.join(__dirname, "./public/sponsors.html"))
   })
 
-  app.get('/about', function(req, res) {
-    res.sendFile(path.join(__dirname, "./public/about.html"))
+  app.get('/outreach', function(req, res) {
+    res.sendFile(path.join(__dirname, "./public/outreach.html"))
   })
 
   app.get('/contact', function(req, res) {

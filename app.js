@@ -17,8 +17,8 @@ app.use(express.static(__dirname + '/public'));
 //     res.sendFile('sponsors')
 //   })
 
-  app.get('/team', function(req, res) {
-    res.sendFile(path.join(__dirname, "./public/team.html"))
+  app.get('/races', function(req, res) {
+    res.sendFile(path.join(__dirname, "./public/races.html"))
   })
 
   app.get('/calendar', function(req, res) {

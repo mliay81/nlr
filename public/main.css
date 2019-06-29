@@ -9,14 +9,16 @@ h1 {
 }
 
 h3 {
-    color: rgb(181, 114, 243);
+    color: darkviolet;
+    /* color: rgb(181, 114, 243); */
     /* font-family: 'Dancing Script', cursive; */
     font-family: 'Anton', sans-serif;
     /* font-family: 'Permanent Marker', cursive; */
 }
 
 h5 {
-    color: rgb(181, 114, 243);
+    color: darkviolet;
+    /* color: rgb(181, 114, 243); */
     /* font-family: 'Dancing Script', cursive; */
     font-family: 'Anton', sans-serif;
     /* font-family: 'Permanent Marker', cursive; */

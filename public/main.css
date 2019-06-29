@@ -87,6 +87,10 @@ strong {
     border: none;
 }
 
+.sponsor {
+    padding: 5px;
+}
+
 
 /* Calendar Sizing */
 @media (max-width: 550px) {

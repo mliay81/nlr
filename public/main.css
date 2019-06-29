@@ -109,6 +109,10 @@ strong {
     .snapwidget.desktop {
       display: none;
     }
+
+    .sponsor {
+        padding: 15px;
+    }
   }
   
   @media screen and (min-width: 721px) {

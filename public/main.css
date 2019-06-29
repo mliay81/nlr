@@ -93,10 +93,6 @@ strong {
     .big-container {
         display: none;
     }
-
-    .sponsor {
-        padding: 15px;
-    }
 }
 @media (min-width: 550px) {
     .small-container {

@@ -87,10 +87,6 @@ strong {
     border: none;
 }
 
-.sponsor {
-    padding: 15px;
-}
-
 
 /* Calendar Sizing */
 @media (max-width: 550px) {
@@ -103,23 +99,6 @@ strong {
         display: none;
     }
 }
-/* Responsive iFrame */
-/* .responsive-iframe-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-} */
-/* .responsive-iframe-container iframe,   
-.vresponsive-iframe-container object,  
-.vresponsive-iframe-container embed {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 20%;
-    height: 100%;
-} */
 
 @media screen and (max-width: 720px) {
     .snapwidget.mobile {
@@ -129,6 +108,10 @@ strong {
     
     .snapwidget.desktop {
       display: none;
+    }
+
+    .sponsor {
+        padding: 15px;
     }
   }
   

@@ -103,14 +103,11 @@ strong {
 @media screen and (max-width: 720px) {
     .snapwidget.mobile {
       display: block;
+      padding: 15px;
     }
     
     .snapwidget.desktop {
       display: none;
-    }
-
-    .sponsor {
-        padding: 15px;
     }
   }
   

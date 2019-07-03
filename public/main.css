@@ -56,6 +56,11 @@ strong {
     padding: 31%;
 }
 
+#raceType {
+    background-color: turquoise;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 .jumbotron {
     background-image: url("images/aurora.jpg");

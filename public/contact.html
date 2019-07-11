@@ -65,7 +65,7 @@
 
 
 <h3>CONTACT!</h3>
-<div class="container" align="center">
+<!-- <div class="container" align="center">
 <form action="https://formspree.io/mikeliay@gmail.com" method="POST">
     Name<br>
     <input type="text" name="name"><br>
@@ -73,7 +73,24 @@
     <input type="email" name="_replyto"><br>
     <input type="submit" value="Send">
   </form>
-</div>
+</div> -->
+
+<form action="https://formspree.io/mikeliay@gmail.com" method="POST">
+    <div class="form-group">
+        <label>Name</label>
+        <input type="text" class="form-control" name="name">
+      </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" aria-describedby="emailHelp" name="_replyto">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary" value="Send">Submit</button>
+  </form>
 
 
         <br><br>

@@ -1,4 +1,20 @@
-<!DOCTYPE html>
+<?php
+
+if($_POST["submit"]) {
+    $recipient="your@email.address";
+    $subject="Form to email message";
+    $sender=$_POST["sender"];
+    $senderEmail=$_POST["senderEmail"];
+    $message=$_POST["message"];
+
+    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+
+    $thankYou="<p>Thank you! Your message has been sent.</p>";
+}
+
+?><!DOCTYPE html>
 <html>
 
 <head>
@@ -19,7 +35,20 @@
 
     <!-- Localhost is pulling from this index file, inside the public folder -->
 
+    <?=$thankYou ?>
 
+<form method="post" action="contact.php">
+    <label>Name:</label>
+    <input name="sender">
+
+    <label>Email address:</label>
+    <input name="senderEmail">
+
+    <label>Message:</label>
+    <textarea rows="5" cols="20" name="message"></textarea>
+
+    <input type="submit" name="submit">
+</form>
 
     <!-- Jumbotron -->
     <div class="jumbotron jumbotron-fluid">
@@ -66,18 +95,6 @@
 
 <h3>CONTACT!</h3>
 
-<h2>Send e-mail to someone@example.com:</h2>
-
-<form action="mailto:mikeliay@gmail.com" method="post" enctype="text/plain">
-Name:<br>
-<input type="text" name="name"><br>
-E-mail:<br>
-<input type="text" name="mail"><br>
-Comment:<br>
-<input type="text" name="comment" size="50"><br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
-</form>
 
 
 

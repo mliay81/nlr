@@ -35,7 +35,7 @@ app.use(express.static(__dirname + '/public'));
   })
 
   app.get('/contact', function(req, res) {
-    res.sendFile(path.join(__dirname, "./public/contact.php"))
+    res.sendFile(path.join(__dirname, "./public/contact.html"))
   })
 
 

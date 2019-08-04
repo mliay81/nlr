@@ -143,6 +143,21 @@ strong {
     }
   }
 
+  /* Works */
+  @media screen and (max-width: 720px) {
+      .communityengagement {
+          width: 20rem;
+      }
+  }
+
+  /* Doesn't work */
+  /* @media screen and (max-width: 721px) {
+  .communityengagement {
+      width: 30rem;
+  }
+} */
+
+
 /* @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;

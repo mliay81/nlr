@@ -17,24 +17,24 @@ app.use(express.static(__dirname + '/public'));
 //     res.sendFile('sponsors')
 //   })
 
-  app.get('/races', function(req, res) {
+  app.get('/races.html', function(req, res) {
     res.sendFile(path.join(__dirname, "./public/races.html"))
   })
 
-  app.get('/calendar', function(req, res) {
+  app.get('/calendar.html', function(req, res) {
     res.sendFile(path.join(__dirname, "./public/calendar.html"))
   })
 
   
-  app.get('/sponsors', function(req, res) {
+  app.get('/sponsors.html', function(req, res) {
     res.sendFile(path.join(__dirname, "./public/sponsors.html"))
   })
 
-  app.get('/outreach', function(req, res) {
+  app.get('/outreach.html', function(req, res) {
     res.sendFile(path.join(__dirname, "./public/outreach.html"))
   })
 
-  app.get('/contact', function(req, res) {
+  app.get('/contact.html', function(req, res) {
     res.sendFile(path.join(__dirname, "./public/contact.html"))
   })
 
